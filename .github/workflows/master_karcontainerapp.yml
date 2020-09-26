@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'karcontainerapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_791e30ecb2a4403884ef30f0759f79b8 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c25e9d761f6d4ac58f78ba1a4f659242 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
